@@ -1,3 +1,26 @@
+# dummyfile
+
+This is an application to automatically generate datafiles without an extension for testing purposes. The application can be used for two different purposes.
+
+## Generate some big files
+The first operation mode for `big` files is optimized to create a few big files. The generation of the files is controlled by two different parameters. The `-fileCount <n>` to specify how many files to generate in total and the `-sizeStart <n>`parameter to specify the size of the first file in MB (Mega Byte). The second file has double the size of the first (initial file), the third file has double the file size of the provious file and so on.
+
+eg.: 10 MB -> 20 MB -> 40 MB -> 80 MB -> ....
+
+dummyfile big -h
+
+### Parameter
+
+
+### Example
+
+
+## generate many tiny files
+
+dummyfile tiny -h 
+
+
+
 =================================================================
 Generate big dummy files
 =================================================================
